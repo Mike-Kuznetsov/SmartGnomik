@@ -1,6 +1,9 @@
 /* Mautoz Tech Smart AC
- * Enter your WiFi SSID and Password below, also don't forget to change rawData and state commands (for ON and OFF commands separately).
- * To get commands for your AC use another program in this repository.
+ * Enter your WiFi SSID and Password below, also don't forget to change rawData arrays values and state arrays values.
+ * To get codes for your AC use another program in this repository, IR sensor and remote.
+ * If your AC uses different protocol (not Mirage), you need to call different function than "sendMirage()". IRSendESP8266 library supports most popular protocols.
+ * You can find name of the function here https://crankyoldgit.github.io/IRremoteESP8266/doxygen/html/classIRsend.html
+ *
  * Mautoz Tech https://www.youtube.com/c/MautozTech
  * Заметки ESPшника (Video about this program is there) - https://www.youtube.com/@ESPdev
  * 
