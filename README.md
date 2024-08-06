@@ -3,7 +3,7 @@
 В этом репозитории содержится код программ устройств моего умного дома. Подробнее про умный дом и устройства вы можете посмотреть на YouTube.
 
 Mautoz Tech https://www.youtube.com/c/MautozTech  
-Заметки ESPшника https://www.youtube.com/channel/UCQAbEIaWFdARXKqcufV6y_g  
+Заметки ESPшника https://www.youtube.com/@espdev
 
 ### DIY Голосовое управление умным домом - DIY Voice Controlled Smart Home
 [![Watch the video](https://img.youtube.com/vi/Uk_LlI7Qcqw/maxresdefault.jpg)](https://www.youtube.com/watch?v=Uk_LlI7Qcqw)
