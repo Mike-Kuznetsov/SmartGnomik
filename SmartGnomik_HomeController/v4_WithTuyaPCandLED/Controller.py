@@ -3,19 +3,20 @@
 # ADDED in v3: Also it can turn on PC via Wake-On-LAN and turn it off or reboot it by sending turn off signal via SSH.
 # ADDED in v4: Now after sending command to a device Orange Pi blinks an LED connected to GPIO-7.
 # Runs on my Orange Pi PC2.
-# See setup_commands.sh for other libraries that this program needs or just start it.
+# Start setup_commands.sh script to download dependencies
 # Also you need to download language model from https://alphacephei.com/vosk/models and put it into this program's folder.
 # Choose the small model. Don't forget to check the name of the model beneath this description, there should be the name of your model's folder.
 # Also you need to turn on Wake-On-LAN or "Power On By PCI-e" in bios, turn on "turning on PC by Wake-On-LAN" in your network adapter's properties, install and add to auto-start OpenSSH-server service.
 # Don't forget that to use GPIO you need root access. To make your user be able to start the  program without entering root password you need to type "visudo" 
 # and add this to the end of the file: "[YOUR USERNAME] ALL=(ALL:ALL) NOPASSWD:/usr/bin/python3". Type your username instead of "[YOUR USERNAME]"
+# THIS IS DANGEROUS. 
 
 # СмартГномик - контроллер умного дома
 # Эта программа слушает голосовые команды и переводит их в веб-команды для моих DIY умных устройств и умных устройств Tuya.
-# ДОБАВЛЕНО В ВЕРСИИ 3: Также она может включить компьютер по Wake-On-LAN и выключать или перезагружать его, отправляя команду по SSH.
+# ДОБАВЛЕНО В ВЕРСИИ 3: Возможность включить компьютер по Wake-On-LAN и выключать или перезагружать его, отправляя команду по SSH.
 # ДОБАВЛЕНО В ВЕРСИИ 4: Теперь после отправки команды OrangePi мигает светодиодом подключенным к контакту GPIO-7.
 # Работает на моей Orange Pi PC2.
-# Запустите файл setup_commands.sh для установки библиотек, вы можете открыть его в текстовом редакторе для ознакомления со списком используемых библиотек.
+# Запустите файл setup_commands.sh для установки библиотек
 # Также вам необходимо скачать голосовую модель с сайта https://alphacephei.com/vosk/models и вставить её в папку с программой.
 # Выбирайте маленькую модель, например "vosk-model-small-ru-0.22". Если название вашей модели отличается от моей, то поменяйте переменную modelName ниже, в ней должно быть название папки с вашей моделью.
 # Также необходимо включить в биосе Wake-On-LAN или "Power On By PCI-e", включить включение ПК по Wake-On-LAN в свойствах сетевой карты в Windows, установить и добавить в автозапуск службу OpenSSH-server. 
