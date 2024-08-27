@@ -1,6 +1,6 @@
 # SmartGnomik Home Controller
 # This program listens for voice commands and translates them into web-commands for my DIY smart devices and my Tuya smart devices.
-# ADDED in v3: Also it can turn on my PC via Wake-On-LAN and turn it off or reboot it by sending turn off signal via SSH.
+# ADDED in v3: Also it can turn on PC via Wake-On-LAN and turn it off or reboot it by sending turn off signal via SSH.
 # ADDED in v4: Now after sending command to a device Orange Pi blinks an LED connected to GPIO-7.
 # Runs on my Orange Pi PC2.
 # See setup_commands.sh for other libraries that this program needs or just start it.
@@ -12,7 +12,7 @@
 
 # СмартГномик - контроллер умного дома
 # Эта программа слушает голосовые команды и переводит их в веб-команды для моих DIY умных устройств и умных устройств Tuya.
-# ДОБАВЛЕНО В ВЕРСИИ 3: Также она может включить мой компьютер по Wake-On-LAN и выключать или перезагружать его, отправляя команду по SSH.
+# ДОБАВЛЕНО В ВЕРСИИ 3: Также она может включить компьютер по Wake-On-LAN и выключать или перезагружать его, отправляя команду по SSH.
 # ДОБАВЛЕНО В ВЕРСИИ 4: Теперь после отправки команды OrangePi мигает светодиодом подключенным к контакту GPIO-7.
 # Работает на моей Orange Pi PC2.
 # Запустите файл setup_commands.sh для установки библиотек, вы можете открыть его в текстовом редакторе для ознакомления со списком используемых библиотек.
