@@ -43,8 +43,8 @@ aliases = ['гном']
 
 import sys
 import clr
-clr.AddReference("/home/mautoz/CSharp/TuyaNet.dll")
-clr.AddReference("/home/mautoz/CSharp/Newtonsoft.Json.dll")
+clr.AddReference("/home/mautoz/CSharp/TuyaNet.dll") # ИЗМЕНИТЕ НА ВАШУ ПАПКУ С ПРОГРАММОЙ
+clr.AddReference("/home/mautoz/CSharp/Newtonsoft.Json.dll") # ИЗМЕНИТЕ НА ВАШУ ПАПКУ С ПРОГРАММОЙ
 import queue
 import sounddevice as sd
 import vosk
