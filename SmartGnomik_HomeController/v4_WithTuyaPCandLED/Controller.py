@@ -9,7 +9,7 @@
 # Also you need to turn on Wake-On-LAN or "Power On By PCI-e" in bios, turn on "turning on PC by Wake-On-LAN" in your network adapter's properties, install and add to auto-start OpenSSH-server service.
 # Don't forget that to use GPIO you need root access. To make your user be able to start the  program without entering root password you need to type "visudo" 
 # and add this to the end of the file: "[YOUR USERNAME] ALL=(ALL:ALL) NOPASSWD:/usr/bin/python3". Type your username instead of "[YOUR USERNAME]"
-# THIS IS DANGEROUS. 
+# THIS IS DANGEROUS. After this Python programs will be able to be executed with root without requiring password. I'll fix it later
 
 # СмартГномик - контроллер умного дома
 # Эта программа слушает голосовые команды и переводит их в веб-команды для моих DIY умных устройств и умных устройств Tuya.
@@ -22,6 +22,7 @@
 # Также необходимо включить в биосе Wake-On-LAN или "Power On By PCI-e", включить включение ПК по Wake-On-LAN в свойствах сетевой карты в Windows, установить и добавить в автозапуск службу OpenSSH-server. 
 # Для работы с GPIO необходим рут-доступ. Чтобы можно было запускать питоновскую программу без ввода пароля рута, необходимо написать в терминале "visudo",
 # добавить в конец файла строку "[ИМЯ ПОЛЬЗОВАТЕЛЯ] ALL=(ALL:ALL) NOPASSWD:/usr/bin/python3" и сохранить (В редакторе Nano - Ctrl+X, вместо [ИМЯ ПОЛЬЗОВАТЕЛЯ] введите имя своего пользователя)
+# ЭТО ОПСАНО. После этого все программы на питоне смогут выполняться от рута без ввода пароля. Я починю это позже
 
 # Mautoz Tech https://www.youtube.com/c/MautozTech
 # Заметки ESPшника (Video about this program is there / видео о программе тут) - https://www.youtube.com/@ESPdev
