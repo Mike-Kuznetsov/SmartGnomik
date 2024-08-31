@@ -11,13 +11,11 @@
 # Помимо этого для работы с GPIO необходим рут-доступ. Для этого пишем в терминале "visudo", 
 # добавляем в конец файла строку "[ИМЯ ПОЛЬЗОВАТЕЛЯ] ALL=(ALL:ALL) NOPASSWD:/usr/bin/python3" (Вместо [ИМЯ ПОЛЬЗОВАТЕЛЯ] введите имя своего пользователя) и сохраняем (В редакторе Nano - Ctrl+X)
 
-apt install libffi-dev libportaudio2 python3-dev python3-pip idle
+apt install libffi-dev libportaudio2 python3-dev python3-pip idle -y
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 
 apt-add-repository 'deb https://download.mono-project.com/repo/ubuntu stable-focal main'
 
-apt install mono-complete
-
-pip3 install pythonnet vosk sounddevice OrangePi.GPIO
-apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+pip3 install pythonnet vosk sounddevice OrangePi.GPIO paramiko wakeonlan
+apt install mono-complete dirmngr gnupg apt-transport-https ca-certificates software-properties-common -y
 
